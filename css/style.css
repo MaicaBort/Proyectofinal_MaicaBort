@@ -46,5 +46,14 @@ footer .logo {
     text-align: right;
   }
 }
+.carousel-item img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    height: 600px;
+    object-fit: cover;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
