@@ -1,0 +1,49 @@
+.h2-formulario {
+    color: $color5;
+    padding: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid $color2;
+    border-radius: 4px;
+    background: $color4;
+    color: $color5;
+
+    &:focus {
+        outline: none;
+        border-color: $color3;
+        background-color: $color1;
+        color: $color2;
+    }
+}
+
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: $color3;
+    color: $color4;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $color1;
+        color: $color5;
+    }
+}
