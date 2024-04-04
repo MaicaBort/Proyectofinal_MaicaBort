@@ -59,4 +59,19 @@ footer .logo {
   box-shadow: 10px 14px 15px -1px rgba(0, 0, 0, 0.73);
 }
 
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 15px;
+  padding: 15px;
+}
+.galeria .imagen-galeria {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.galeria .imagen-galeria:hover {
+  transform: scale(1.5);
+}
+
 /*# sourceMappingURL=style.css.map */
