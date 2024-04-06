@@ -1,0 +1,12 @@
+.ratio {
+    width: 100%;
+    max-width: 560px;
+}
+
+@media (min-width: 1200px) {
+    .ratio {
+        width: 80%;
+        max-width: 1000px;
+        height: 500px;
+    }
+}
